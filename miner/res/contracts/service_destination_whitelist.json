@@ -1,0 +1,7 @@
+[
+	{ "constant": true, "inputs": [], "name": "activated", "outputs": [ { "name": "", "type": "bool" } ], "payable": false, "stateMutability": "view", "type": "function" },
+	{ "constant": false, "inputs": [ { "name": "_activate", "type": "bool" } ], "name": "activate", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" },
+	{ "constant": true, "inputs": [ { "name": "_target", "type": "address" } ], "name": "whitelisted", "outputs": [ { "name": "", "type": "bool" } ], "payable": false, "stateMutability": "view", "type": "function" },
+	{ "constant": false, "inputs": [ { "name": "_target", "type": "address" } ], "name": "provideWhitelist", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" },
+	{ "constant": false, "inputs": [ { "name": "_target", "type": "address" } ], "name": "revokeWhitelist", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }
+]
